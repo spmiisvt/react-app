@@ -1,8 +1,7 @@
 import {render} from "react-dom";
-import App from "./App";
+import App from "app/App";
 
-import ThemeProvider from "./theme/ThemeProvider";
-
+import {ThemeProvider} from "app/providers/ThemeProvider/ui/ThemeProvider";
 
 render(
     <ThemeProvider>
