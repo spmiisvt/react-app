@@ -1,6 +1,6 @@
 .idea
 node_modules
-build
+/build
 
 .DS_STORE
 scripts/flow/*/.flowconfig
@@ -10,7 +10,7 @@ scripts/flow/*/.flowconfig
 .grunt
 _SpecRunner.html
 __benchmarks__
-build/
+
 remote-repo/
 coverage/
 .module-cache
