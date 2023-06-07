@@ -1,9 +1,15 @@
 import {render} from "react-dom";
 import App from "./App";
-import './index.scss'
+import './styles/index.scss'
+import ThemeProvider from "./theme/ThemeProvider";
+
 
 
 render(
-    <App/>,
-    document.getElementById('root')
+
+        <ThemeProvider>
+            <App/>
+        </ThemeProvider>
+   ,
+document.getElementById('root')
 )
